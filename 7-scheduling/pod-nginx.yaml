@@ -11,3 +11,4 @@ spec: # specifications for our object
     imagePullPolicy: IfNotPresent # image pull policy 
   nodeSelector: # Nodeselector condition 
     mynode: worker-x # label on the node where pod is going to deploy
+kubectl get po -o wide
