@@ -29,5 +29,9 @@ Test the responses
 curl http://$(minikube ip)
 ```
 
+Here, I ran it 10 times to see if I can get a 70-30 split (or near that) between app 1 and 2. The following output is as follows:
+![Alt text](/workspaces/ensf400-lab8-kubernetes-2/assignment3/Output.png)
+
+
 
 
