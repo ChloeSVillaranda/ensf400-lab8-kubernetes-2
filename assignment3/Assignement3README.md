@@ -21,6 +21,13 @@ kubectl apply -f app-1-dep.yaml
 kubectl apply -f app-2-svc.yaml
 kubectl apply -f app-2-ingress.yaml
 kubectl apply -f app-2-dep.yaml
-
 ```
+
+### Verification
+Test the responses
+```sh
+curl http://$(minikube ip)
+```
+
+
 
